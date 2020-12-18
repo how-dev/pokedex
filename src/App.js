@@ -1,9 +1,9 @@
 import './App.css';
-import pokedex from "./pokedex.png"
+import pokedex from "./assets/pokedex.png"
 import { useEffect, useState } from "react";
-import female from "./Female.png"
-import male from "./Male.png"
-import bloqued from "./bloqued.png"
+import female from "./assets/Female.png"
+import male from "./assets/Male.png"
+import bloqued from "./assets/bloqued.png"
 
 const App = () => {
   const[pokemons, addPokemon] = useState();

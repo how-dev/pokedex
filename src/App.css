@@ -44,7 +44,7 @@ html, body, #root {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./BG.png");
+  background-image: url("./assets/BG.png");
   height: 100%;
 }
 .App {
@@ -100,7 +100,7 @@ html, body, #root {
     width: 200px;
   }
   .pokemonId {
-    transform: translate(925%, -570%);
+    transform: translate(925%, -590%);
     min-width: 100px;
     color: rgba(0, 0, 0, 0.733);
     display: flex;
